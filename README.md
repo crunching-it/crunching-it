@@ -16,8 +16,7 @@ This is the process almost from scratch, assuming you're on a Mac and have insta
 7. Clone the repository: `git clone git@github.com:crunching-it/crunching-it.git crunching_it`
 8. Navigate into the project: `cd crunching_it`
 9. Install the required packages: `pip install -r requirements.txt`
-9. Create your local settings module: `cp local_settings.py.dist local_settings.py`
-9. Add a secret key to `local_settings.SECRET_KEY`
+9. Add a secret key environment variable to your `~/.zshrc` or similar: `export SECRET_KEY='Lots of random characters'`
 10. Start the development webserver: `python manage.py runserver`
 11. Visit [http://localhost:8000/](http://localhost:8000/).
 
