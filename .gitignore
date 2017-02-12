@@ -1,8 +1,5 @@
-*.pyc
 staticfiles
-crunching_it/settings.py
 __pycache__/
-*.py[cod]
 *$py.class
 *.so
 .Python
@@ -53,3 +50,4 @@ venv/
 ENV/
 .spyderproject
 .ropeproject
+db.sqlite3
