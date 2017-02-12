@@ -9,7 +9,7 @@ This is the process almost from scratch, assuming you're on a Mac and have insta
 4. Prepare to create you virtual environment: `mkdir ~/.virtualenvs`.
 5. Create your virtual environment: `python3 -m venv ~/.virtualenvs/crunching-it`.
 6. Activate your virtual environment: `source ~/.virtualenvs/crunching-it/bin/activate`.
-7. Clone the repository: `git clone git@github.com:yhoiseth/crunching-it.git crunching_it`.
+7. Clone the repository: `git clone git@github.com:crunching-it/crunching-it.git crunching_it`.
 8. Navigate into the project: `cd crunching_it`.
 9. Install the required packages: `pip install -r requirements.txt`.
 10. Start the development webserver: `python manage.py runserver`.
