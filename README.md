@@ -1,48 +1,18 @@
-# Heroku Django Starter Template
+# Crunching it
 
-An utterly fantastic project starter template for Django 1.10.
+## How do I set up my development environment?
 
-## Features
+This is the process almost from scratch, assuming you're on a Mac and have installed Homebrew already.
 
-- Production-ready configuration for Static Files, Database Settings, Gunicorn, etc.
-- Enhancements to Django's static file serving functionality via WhiteNoise.
-- Latest Python 3.6 runtime environment. 
+1. Install Python: `brew install python3`
+2. Upgrade package management tools: `pip3 install --upgrade pip setuptools wheel virtualenv`
+4. Prepare to create you virtual environment: `mkdir ~/.virtualenvs`.
+5. Create your virtual environment: `python3 -m venv ~/.virtualenvs/crunching-it`.
+6. Activate your virtual environment: `source ~/.virtualenvs/crunching-it/bin/activate`.
+7. Clone the repository: `git clone git@github.com:yhoiseth/crunching-it.git crunching_it`.
+8. Navigate into the project: `cd crunching_it`.
+9. Install the required packages: `pip install -r requirements.txt`.
+10. Start the development webserver: `python manage.py runserver`.
+11. Visit [http://localhost:8000/](http://localhost:8000/).
 
-## How to Use
-
-To use this project, follow these steps:
-
-1. Create your working environment.
-2. Install Django (`$ pip install django`)
-3. Create a new project using this template
-
-## Creating Your Project
-
-Using this template to create a new Django app is easy::
-
-    $ django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
-
-You can replace ``helloworld`` with your desired project name.
-
-## Deployment to Heroku
-
-    $ git init
-    $ git add -A
-    $ git commit -m "Initial commit"
-
-    $ heroku create
-    $ git push heroku master
-
-    $ heroku run python manage.py migrate
-
-See also, a [ready-made application](https://github.com/heroku/python-getting-started), ready to deploy.
-
-## Using Python 2.7?
-
-Just update `runtime.txt` to `python-2.7.13` (no trailing spaces or newlines!).
-
-## Further Reading
-
-- [Gunicorn](https://warehouse.python.org/project/gunicorn/)
-- [WhiteNoise](https://warehouse.python.org/project/whitenoise/)
-- [dj-database-url](https://warehouse.python.org/project/dj-database-url/)
+To _deactivate_ (exit) your virtual environment, use the `deactivate` command.
