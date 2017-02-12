@@ -1,5 +1,9 @@
 # Crunching it
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/crunching-it/crunching-it/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/crunching-it/crunching-it/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/crunching-it/crunching-it/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/crunching-it/crunching-it/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/crunching-it/crunching-it/badges/build.png?b=master)](https://scrutinizer-ci.com/g/crunching-it/crunching-it/build-status/master)
+
 ## How do I set up my development environment?
 
 This is the process almost from scratch, assuming you're on a Mac and have installed Homebrew already.
