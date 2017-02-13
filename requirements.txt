@@ -8,5 +8,6 @@ parse-type==0.3.4
 pexpect==4.2.1
 psycopg2==2.6.2
 ptyprocess==0.5.1
+selenium==3.0.2
 six==1.10.0
 whitenoise==3.2
